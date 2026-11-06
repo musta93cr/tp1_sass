@@ -13,12 +13,17 @@ h1 {
   color: $accent;
 }
 
-.carte {
-  background: white;
+@mixin blocCommun{
+
   color: $texte;
   padding: $espace * 2;
-  border-radius: $rayon;
-
+  
+}
+.carte {
+  @include blocCommun;
+   background: white;
+   border-radius: $rayon;
+  
   h2 {
     color: $accent;
   }
@@ -52,6 +57,9 @@ h1 {
   background-color: white;
   color: $accent;
   border: 1px solid $accent;
+}
+.parcours{
+  @include blocCommun
 }
 
 // TODO : imbriquer h2 et p dans .carte.

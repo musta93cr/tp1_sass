@@ -60,9 +60,9 @@ h1 {
 }
 
 .carte {
-  background: white;
   color: #172337;
   padding: 2rem;
+  background: white;
   border-radius: 0.75rem;
 }
 .carte h2 {
@@ -93,6 +93,11 @@ h1 {
   background-color: white;
   color: #075985;
   border: 1px solid #075985;
+}
+
+.parcours {
+  color: #172337;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
