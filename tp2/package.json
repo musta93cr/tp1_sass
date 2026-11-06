@@ -1,0 +1,14 @@
+{
+  "name": "formaweb-scss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "version:sass": "sass --version",
+    "build": "sass src/style.scss css/style.css",
+    "dev": "sass --watch src/style.scss css/style.css",
+    "build:prod": "sass --style=compressed --no-source-map src/style.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "1.107.0"
+  }
+}

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Base fournie : aucune modification demandée dans les TP. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #172337;
+  background: #f1f5f9;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+}
+
+h2 {
+  line-height: 1.3;
+}
+
+.entete {
+  margin-bottom: 2rem;
+}
+
+.catalogue {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 48rem) {
+  .catalogue {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.bouton {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.encart {
+  margin-top: 1.5rem;
+}
+
+h1 {
+  color: #075985;
+}
+
+.carte {
+  background: white;
+  color: #172337;
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+.carte h2 {
+  color: #075985;
+}
+.carte p {
+  color: #172337;
+}
+
+.bouton {
+  background: #075985;
+  color: white;
+}
+.bouton:hover {
+  background-color: #0c4a6e;
+}
+.bouton:focus-visible {
+  outline: 3px solid #0c4a6e;
+  outline-offset: 3px;
+}
+.bouton.secondaire {
+  background: white;
+  color: #075985;
+  border: 1px solid #075985;
+}
+
+.bouton-blanc {
+  background-color: white;
+  color: #075985;
+  border: 1px solid #075985;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+@use "base";
+
+// TODO : déclarer les variables de la charte avant leur utilisation.
+// Le SCSS de départ est compilable. Remplacer les valeurs selon les consignes.
+h1 { color: #172337; }
+.carte { background: white; padding: 1rem; border-radius: 0; }
+.bouton { background: #172337; color: white; }
+
+
+
+// Couleurs
+$background-color: #f1f5f9;
+$primary-color: #172337;
+$btn-color: #172337;
+$white-color: white;
+
+// Espacements
+$espace-mini: 1rem;
+$espace-moyen: 2rem;
+$espace-large: 3rem;
+
+// Arrondis
+$petit-arrondi: 8px;
+$grand-arrondi: 16px;
+
+// STYLES
+
+h1 {
+color: $primary-color;
+}
+
+.card {
+background: $white-color;
+padding: $espace-mini;
+border-radius: $grand-arrondi;
+}
+
+.bouton {
+background: $btn-color;
+color: $white-color;
+}
