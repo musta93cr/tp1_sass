@@ -2,16 +2,16 @@
 
 // TODO : déclarer les variables de la charte avant leur utilisation.
 // Le SCSS de départ est compilable. Remplacer les valeurs selon les consignes.
-h1 { color: #172337; }
-.carte { background: white; padding: 1rem; border-radius: 0; }
-.bouton { background: #172337; color: white; }
+//h1 { color: #172337; }
+//.carte { background: white; padding: 1rem; border-radius: 0; }
+//.bouton { background: #172337; color: white; }
 
 
 
 // Couleurs
 $background-color: #f1f5f9;
-$primary-color: #172337;
-$btn-color: #172337;
+$primary-color: #075985;
+$btn-color: #075985;
 $white-color: white;
 
 // Espacements
@@ -26,10 +26,10 @@ $grand-arrondi: 16px;
 // STYLES
 
 h1 {
-color: $primary-color;
+color:$primary-color;
 }
 
-.card {
+.carte {
 background: $white-color;
 padding: $espace-mini;
 border-radius: $grand-arrondi;
